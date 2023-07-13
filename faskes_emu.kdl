@@ -1,0 +1,23 @@
+
+layout {
+    pane split_direction="vertical" {
+        pane size="80%" name="Lunar Vim & Lazygit" {
+            cwd "/home/snake/projects/faskes_emu/"
+            command "lvim"
+        }
+        pane size="20%" name="Zap Resep"{
+            cwd "/home/snake/projects/faskes_emu/"
+        }
+    }
+    pane size=10 split_direction="vertical" {
+        pane name="Django Server" {
+          cwd "/home/snake/projects/faskes_emu/"
+        }
+        pane name="Music Folder"{
+        	cwd "/home/snake/Music/"
+        }
+        pane name="Other" {
+          cwd "/home/snake/"
+        }
+    }
+}
